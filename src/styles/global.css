@@ -1,0 +1,21 @@
+@tailwind base;
+
+@layer components {
+  html {
+    @apply h-full leading-normal;
+    font-family: "Lato", sans-serif;
+  }
+
+  body {
+    @apply antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900;
+  }
+
+  svg {
+    width: 1em;
+    height: 1em;
+  }
+}
+
+@tailwind components;
+
+@tailwind utilities;
